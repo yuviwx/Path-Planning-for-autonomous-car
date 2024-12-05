@@ -1,14 +1,13 @@
+# This module checks if cones are regularly spaced or not in order to choose the best method for the path planning.
+
+
 import pandas as pd
 import numpy as np
 
-# Load your dataset
-# Replace 'path_to_file.csv' with the path to your full dataset
 df = pd.read_csv("BrandsHatchLayout.csv")
 
-# Drop rows with missing x, y values
 df = df.dropna(subset=["x", "y"])
 
-# Separate left and right cones
 left_cones = df[df["side"] == "left"].reset_index(drop=True)
 right_cones = df[df["side"] == "right"].reset_index(drop=True)
 

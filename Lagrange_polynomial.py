@@ -1,4 +1,4 @@
-# This moudle is an implementation of Lagrange polynomial
+# This module is an implementation of Lagrange polynomial
 # It was neglected due to lack of univalentsy(חד-ערכיות) in the given csv elements
 
 import numpy # Was seppose to optimise calculations but was not implemented in the end.
