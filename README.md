@@ -1,4 +1,4 @@
-# Formola 1 home assignment - Path Planning
+# Formula 1 home assignment - Path Planning
 
 This repository contains code and solutions for **path planning task**.
 For path planning I needed to express the route of the car in a continuous curve.
